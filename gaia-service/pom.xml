@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>gaia-parent</artifactId>
+        <groupId>com.ptb.gaia</groupId>
+        <version>3.8.4-SNAPSHOT</version>
+    </parent>
+    <groupId>com.ptb.gaia</groupId>
+    <artifactId>gaia-service</artifactId>
+    <packaging>jar</packaging>
+    <name>gaia-service</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.16</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ptb.common</groupId>
+            <artifactId>ptb-utils</artifactId>
+            <version>1.2.2-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>druid</artifactId>
+                    <groupId>com.alibaba</groupId>
+                </exclusion>
+
+                <exclusion>
+                    <artifactId>spring-jdbc</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.ptb.uranus</groupId>
+            <artifactId>uranus-spider</artifactId>
+            <version>2.5.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ptb.uranus</groupId>
+            <artifactId>uranus-sdk</artifactId>
+            <version>2.5.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

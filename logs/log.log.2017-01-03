@@ -1,0 +1,27 @@
+2017-01-03 16:38:24  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 16:40:18  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 16:41:39  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 17:30:34  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 17:31:02  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 17:32:21  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 17:53:32  [ main:0 ] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-03 19:19:27  [ main:0 ] - [ INFO ]  [Force] modules [], plugins [], sites []
+2017-01-03 19:19:32  [ main:4886 ] - [ WARN ]  [Force] node {#transport#-1}{192.168.40.21}{192.168.40.21:9300} not part of the cluster Cluster [elasticsearch], ignoring...
+2017-01-03 19:29:02  [ main:0 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:29:02  [ main:12 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:29:04  [ main:2007 ] - [ INFO ]  [Karma] modules [], plugins [], sites []
+2017-01-03 19:36:06  [ main:1 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:36:06  [ main:13 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:36:08  [ main:1896 ] - [ INFO ]  [Miss America] modules [], plugins [], sites []
+2017-01-03 19:41:45  [ main:0 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:41:45  [ main:16 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:41:46  [ main:724 ] - [ INFO ]  [Jens Meilleur Slap Shot] modules [], plugins [], sites []
+2017-01-03 19:42:20  [ main:0 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:42:20  [ main:29 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:42:21  [ main:1611 ] - [ INFO ]  [Tarantula] modules [], plugins [], sites []
+2017-01-03 19:51:23  [ main:0 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:51:23  [ main:21 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:51:25  [ main:2064 ] - [ INFO ]  [Stitch] modules [], plugins [], sites []
+2017-01-03 19:56:03  [ main:1 ] - [ WARN ]  [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300]
+2017-01-03 19:56:03  [ main:23 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.40.21:9300, 192.168.40.22:9300, 192.168.40.23:9300] 
+2017-01-03 19:56:05  [ main:1790 ] - [ INFO ]  [Ajak] modules [], plugins [], sites []

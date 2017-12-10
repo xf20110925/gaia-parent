@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	 http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+	default-lazy-init="false" default-autowire="byName">
+	<description>Dubbo consumer配置</description>
+	<!-- 消费方应用信息 -->
+	<dubbo:application name="zeus-server" />
+	<!-- 使用zookeeper注册中心暴露服务地址 -->
+	<dubbo:registry protocol="zookeeper" address="192.168.40.25:2181,192.168.40.26:2181,192.168.40.27:2181" />
+	<!-- 设置不依赖 -->
+	<dubbo:consumer check="false" timeout="5000" />
+
+	<dubbo:reference interface="com.ptb.service.api.IMediaApi"
+					 id="mediaApi" owner="zuokui.fu" version="1.0" protocol="dubbo"
+					 retries="0" />
+</beans>

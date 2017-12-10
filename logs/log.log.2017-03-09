@@ -1,0 +1,530 @@
+2017-03-09 14:44:53  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:44:53  [ main:684 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:44:53  [ main:684 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:44:54  [ main:1272 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:44:54  [ main:1273 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:44:54  [ main:1274 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:44:54  [ main:1275 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:44:54  [ main:1277 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6988 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52361}] to 192.168.40.18:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:6990 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52360}] to 192.168.40.18:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6991 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1105189, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6992 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6993 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6993 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:6994 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=2351267, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.18:27017:6996 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:7000 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:7002 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:7003 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.18:27017:7006 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.20:27017:7008 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52253}] to 192.168.40.20:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.20:27017:7009 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1361775, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.19:27017:7012 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52253}] to 192.168.40.19:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.19:27017:7014 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1811036, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.19:27017:7018 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52254}] to 192.168.40.19:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e68d57073048552c61', description='null'}-192.168.40.19:27017:7027 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=4802370, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.20:27017:7041 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52254}] to 192.168.40.20:27017
+2017-03-09 14:45:00  [ cluster-ClusterId{value='58c0f9e58d57073048552c60', description='null'}-192.168.40.20:27017:7044 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1997644, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:00  [ main:7078 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52363}] to 192.168.40.18:27017
+2017-03-09 14:45:37  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:45:39  [ main:1257 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:45:39  [ main:1258 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:45:39  [ main:1405 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:45:39  [ main:1405 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:45:39  [ main:1407 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:45:39  [ main:1407 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:45:39  [ main:1408 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7505 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52367}] to 192.168.40.18:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7505 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52366}] to 192.168.40.18:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7509 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=2133868, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7510 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1630026, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7510 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7510 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7512 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7511 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7514 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.18:27017:7515 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7515 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.18:27017:7519 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.20:27017:7529 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52257}] to 192.168.40.20:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.20:27017:7531 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1381369, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.19:27017:7532 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52257}] to 192.168.40.19:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.20:27017:7535 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52258}] to 192.168.40.20:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331091', description='null'}-192.168.40.19:27017:7537 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=4742655, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.19:27017:7538 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52258}] to 192.168.40.19:27017
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.20:27017:7539 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1027280, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ cluster-ClusterId{value='58c0fa138d570732d4331090', description='null'}-192.168.40.19:27017:7540 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1613697, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:45:45  [ main:7554 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52368}] to 192.168.40.18:27017
+2017-03-09 14:46:34  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:46:35  [ main:1170 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:46:35  [ main:1171 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:46:35  [ main:1311 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:46:35  [ main:1312 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 14:46:35  [ main:1313 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 14:46:35  [ main:1313 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 14:46:35  [ main:1315 ] - [ INFO ]  MONGO配置完成
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5139 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52373}] to 192.168.40.18:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5140 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52374}] to 192.168.40.18:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5142 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=2470697, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5143 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1827830, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5144 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5144 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5145 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5145 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5146 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.18:27017:5147 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:46:39  [ main:5148 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=192.168.40.18:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5150 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.18:27017:5152 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.19:27017:5155 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52263}] to 192.168.40.19:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.19:27017:5156 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1213889, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.20:27017:5160 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52263}] to 192.168.40.20:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.19:27017:5161 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52264}] to 192.168.40.19:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaeb', description='null'}-192.168.40.20:27017:5162 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1625827, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.19:27017:5164 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1667347, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.20:27017:5165 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52264}] to 192.168.40.20:27017
+2017-03-09 14:46:39  [ cluster-ClusterId{value='58c0fa4b8d5707365490aaea', description='null'}-192.168.40.20:27017:5167 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1091660, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 14:46:39  [ main:5173 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52375}] to 192.168.40.18:27017
+2017-03-09 14:48:53  [ main:139259 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-03-09 15:34:19  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 15:34:21  [ main:1600 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 15:34:21  [ main:1600 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 15:34:21  [ main:1717 ] - [ INFO ]  MONGO配置完成
+2017-03-09 15:34:21  [ main:1718 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 15:34:21  [ main:1719 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 15:34:21  [ main:1719 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 15:34:21  [ main:1722 ] - [ INFO ]  MONGO配置完成
+2017-03-09 15:34:21  [ main:1773 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=192.168.40.18:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1774 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52579}] to 192.168.40.18:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1774 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52578}] to 192.168.40.18:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1777 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1322122, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1777 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1145310, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1778 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1778 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1779 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1779 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1780 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1780 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.18:27017:1782 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.18:27017:1782 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.19:27017:1790 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52463}] to 192.168.40.19:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.19:27017:1791 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52462}] to 192.168.40.19:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.19:27017:1792 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1642155, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.20:27017:1792 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52462}] to 192.168.40.20:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.19:27017:1793 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1896875, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dd', description='null'}-192.168.40.20:27017:1794 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1352911, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:34:21  [ main:1795 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52580}] to 192.168.40.18:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.20:27017:1795 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52463}] to 192.168.40.20:27017
+2017-03-09 15:34:21  [ cluster-ClusterId{value='58c1057d8d57075c407f71dc', description='null'}-192.168.40.20:27017:1797 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1465343, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:46  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 15:41:48  [ main:1483 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 15:41:48  [ main:1483 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 15:41:48  [ main:1641 ] - [ INFO ]  MONGO配置完成
+2017-03-09 15:41:48  [ main:1641 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 15:41:48  [ main:1642 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 15:41:48  [ main:1643 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 15:41:48  [ main:1644 ] - [ INFO ]  MONGO配置完成
+2017-03-09 15:41:48  [ main:1702 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=192.168.40.18:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1716 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52612}] to 192.168.40.18:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1716 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52611}] to 192.168.40.18:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1719 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1328186, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1719 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1502665, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1721 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1721 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1722 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1722 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1723 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1723 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.18:27017:1724 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.18:27017:1729 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.20:27017:1730 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52494}] to 192.168.40.20:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.19:27017:1730 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52494}] to 192.168.40.19:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.19:27017:1732 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1553983, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374f', description='null'}-192.168.40.20:27017:1733 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1751321, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.19:27017:1741 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52495}] to 192.168.40.19:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.20:27017:1741 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52495}] to 192.168.40.20:27017
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.19:27017:1743 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1812902, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ cluster-ClusterId{value='58c1073c8d570776787d374e', description='null'}-192.168.40.20:27017:1746 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=3958433, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 15:41:48  [ main:1752 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52613}] to 192.168.40.18:27017
+2017-03-09 16:05:47  [ ForkJoinPool.commonPool-worker-3:1440414 ] - [ INFO ]  I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://111.181.60.42:1089->http://m.weibo.cn:80: The target server failed to respond
+2017-03-09 16:05:47  [ ForkJoinPool.commonPool-worker-3:1440418 ] - [ INFO ]  Retrying request to {}->http://111.181.60.42:1089->http://m.weibo.cn:80
+2017-03-09 16:05:47  [ ForkJoinPool.commonPool-worker-3:1440423 ] - [ INFO ]  I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://111.181.60.42:1089->http://m.weibo.cn:80: The target server failed to respond
+2017-03-09 16:05:47  [ ForkJoinPool.commonPool-worker-3:1440424 ] - [ INFO ]  Retrying request to {}->http://111.181.60.42:1089->http://m.weibo.cn:80
+2017-03-09 16:05:50  [ ForkJoinPool.commonPool-worker-2:1444229 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-03-09 16:06:13  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 16:06:14  [ main:1337 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 16:06:14  [ main:1337 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 16:06:15  [ main:1602 ] - [ INFO ]  MONGO配置完成
+2017-03-09 16:06:15  [ main:1603 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 16:06:15  [ main:1604 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 16:06:15  [ main:1604 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 16:06:15  [ main:1605 ] - [ INFO ]  MONGO配置完成
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1682 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52725}] to 192.168.40.18:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1686 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=2217375, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1688 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52724}] to 192.168.40.18:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1688 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1689 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1690 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1691 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1691 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=2321410, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1692 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1692 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1693 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1694 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1702 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52604}] to 192.168.40.20:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1702 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52608}] to 192.168.40.19:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1704 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52605}] to 192.168.40.20:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1706 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2651241, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1706 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1811969, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1707 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2805192, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1712 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52609}] to 192.168.40.19:27017
+2017-03-09 16:06:15  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1714 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1855355, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 16:06:15  [ main:1725 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52726}] to 192.168.40.18:27017
+2017-03-09 16:06:26  [ ForkJoinPool.commonPool-worker-2:13346 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-03-09 16:21:08  [ main:895128 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 16:21:08  [ main:895130 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1501219 ] - [ INFO ]  Opened connection [connectionId{localValue:8, serverValue:52845}] to 192.168.40.18:27017
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1501255 ] - [ INFO ]  Opened connection [connectionId{localValue:9, serverValue:52717}] to 192.168.40.20:27017
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1501259 ] - [ INFO ]  Opened connection [connectionId{localValue:10, serverValue:52721}] to 192.168.40.19:27017
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1501264 ] - [ INFO ]  Opened connection [connectionId{localValue:11, serverValue:52846}] to 192.168.40.18:27017
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1501437 ] - [ INFO ]  Opened connection [connectionId{localValue:13, serverValue:52722}] to 192.168.40.19:27017
+2017-03-09 16:31:14  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1501448 ] - [ INFO ]  Opened connection [connectionId{localValue:12, serverValue:52718}] to 192.168.40.20:27017
+2017-03-09 16:31:22  [ ForkJoinPool.commonPool-worker-1:1509386 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 16:31:22  [ ForkJoinPool.commonPool-worker-1:1509386 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:31:23  [ main:1509683 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 16:31:23  [ main:1509683 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-2:1614289 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.129.26:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-2:1614289 ] - [ INFO ]  Retrying request to {}->http://58.55.129.26:1089->http://m.weibo.cn:80
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-3:1614289 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-3:1614289 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-2:1614289 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.129.26:1089->http://m.weibo.cn:80: Connection reset by peer: socket write error
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-2:1614290 ] - [ INFO ]  Retrying request to {}->http://58.55.129.26:1089->http://m.weibo.cn:80
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-3:1614290 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-3:1614290 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:33:07  [ main:1614289 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.131.63:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 16:33:07  [ main:1614291 ] - [ INFO ]  Retrying request to {}->http://58.55.131.63:1089->http://m.weibo.cn:80
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-1:1614293 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.131.63:1089->http://m.weibo.cn:80: Connection reset
+2017-03-09 16:33:07  [ ForkJoinPool.commonPool-worker-1:1614293 ] - [ INFO ]  Retrying request to {}->http://58.55.131.63:1089->http://m.weibo.cn:80
+2017-03-09 16:33:34  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1641420 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.18:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:33:34  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1641422 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.20:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:33:34  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1641421 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.19:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:33:34  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1641421 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.18:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:33:35  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1641589 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.20:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:33:35  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1641589 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.19:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1711435 ] - [ INFO ]  Opened connection [connectionId{localValue:32, serverValue:52867}] to 192.168.40.18:27017
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1711435 ] - [ INFO ]  Opened connection [connectionId{localValue:34, serverValue:52737}] to 192.168.40.19:27017
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1711435 ] - [ INFO ]  Opened connection [connectionId{localValue:33, serverValue:52733}] to 192.168.40.20:27017
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1711436 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.18:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:1711438 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.19:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:1711438 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.20:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:1711438 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1711457 ] - [ INFO ]  Opened connection [connectionId{localValue:35, serverValue:52868}] to 192.168.40.18:27017
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1711458 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.18:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:44  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:1711459 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 16:34:45  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1711602 ] - [ INFO ]  Opened connection [connectionId{localValue:36, serverValue:52734}] to 192.168.40.20:27017
+2017-03-09 16:34:45  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:1711603 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.20:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:34:45  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1711603 ] - [ INFO ]  Opened connection [connectionId{localValue:37, serverValue:52738}] to 192.168.40.19:27017
+2017-03-09 16:34:45  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:1711605 ] - [ INFO ]  Exception in monitor thread while connecting to server 192.168.40.19:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+2017-03-09 16:39:46  [ main:2013514 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 16:39:46  [ main:2013515 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:42:13  [ ForkJoinPool.commonPool-worker-2:2160233 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 16:42:13  [ ForkJoinPool.commonPool-worker-2:2160233 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 16:42:13  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.19:27017:2160445 ] - [ INFO ]  Opened connection [connectionId{localValue:38, serverValue:52769}] to 192.168.40.19:27017
+2017-03-09 16:42:13  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.18:27017:2160447 ] - [ INFO ]  Opened connection [connectionId{localValue:39, serverValue:52903}] to 192.168.40.18:27017
+2017-03-09 16:42:13  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.20:27017:2160448 ] - [ INFO ]  Opened connection [connectionId{localValue:40, serverValue:52765}] to 192.168.40.20:27017
+2017-03-09 16:42:13  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.18:27017:2160474 ] - [ INFO ]  Opened connection [connectionId{localValue:41, serverValue:52904}] to 192.168.40.18:27017
+2017-03-09 16:42:14  [ cluster-ClusterId{value='58c10cf78d570772d8a68829', description='null'}-192.168.40.19:27017:2161545 ] - [ INFO ]  Opened connection [connectionId{localValue:43, serverValue:52770}] to 192.168.40.19:27017
+2017-03-09 16:42:14  [ cluster-ClusterId{value='58c10cf68d570772d8a68828', description='null'}-192.168.40.20:27017:2161548 ] - [ INFO ]  Opened connection [connectionId{localValue:42, serverValue:52766}] to 192.168.40.20:27017
+2017-03-09 16:42:17  [ main:2164167 ] - [ INFO ]  I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://114.113.237.137:80: The target server failed to respond
+2017-03-09 16:42:17  [ main:2164167 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 17:00:28  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 17:00:29  [ main:888 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 17:00:29  [ main:888 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 17:00:29  [ main:1026 ] - [ INFO ]  MONGO配置完成
+2017-03-09 17:00:29  [ main:1026 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 17:00:29  [ main:1029 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 17:00:29  [ main:1030 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 17:00:29  [ main:1032 ] - [ INFO ]  MONGO配置完成
+2017-03-09 17:00:29  [ main:1078 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=192.168.40.18:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1111 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:52979}] to 192.168.40.18:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1118 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=5989200, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1120 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1121 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1121 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.18:27017:1122 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.19:27017:1140 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:52844}] to 192.168.40.19:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.19:27017:1145 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=3775556, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1166 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:52980}] to 192.168.40.18:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1168 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1570311, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1169 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1169 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1170 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.18:27017:1172 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 17:00:29  [ main:1184 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:52981}] to 192.168.40.18:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.19:27017:1195 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:52845}] to 192.168.40.19:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.19:27017:1198 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2506153, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.20:27017:1236 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:52840}] to 192.168.40.20:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77133', description='null'}-192.168.40.20:27017:1240 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=3042652, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.20:27017:1595 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:52841}] to 192.168.40.20:27017
+2017-03-09 17:00:29  [ cluster-ClusterId{value='58c119ad8d5707c9c0c77134', description='null'}-192.168.40.20:27017:1608 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=12288637, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 17:00:35  [ main:7295 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-03-09 17:00:41  [ main:13397 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 17:00:41  [ main:13398 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 17:17:22  [ main:1014255 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 17:17:22  [ main:1014256 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 17:20:59  [ main:1230896 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.128.236:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 17:20:59  [ main:1230896 ] - [ INFO ]  Retrying request to {}->http://58.55.128.236:1089->http://m.weibo.cn:80
+2017-03-09 17:54:54  [ main:3266538 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 17:54:54  [ main:3266538 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 18:22:05  [ main:4897208 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.129.49:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 18:22:05  [ main:4897208 ] - [ INFO ]  Retrying request to {}->http://58.55.129.49:1089->http://m.weibo.cn:80
+2017-03-09 19:27:17  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 19:27:18  [ main:811 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 19:27:18  [ main:811 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 19:27:18  [ main:905 ] - [ INFO ]  MONGO配置完成
+2017-03-09 19:27:18  [ main:905 ] - [ INFO ]  正在配置MONGODB
+2017-03-09 19:27:18  [ main:920 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2017-03-09 19:27:18  [ main:920 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2017-03-09 19:27:18  [ main:920 ] - [ INFO ]  MONGO配置完成
+2017-03-09 19:27:18  [ main:952 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=192.168.40.18:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:53581}] to 192.168.40.18:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:53580}] to 192.168.40.18:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1319346, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58b53dd1fd1b08ef95132471, maxDocumentSize=16777216, roundTripTimeNanos=1445775, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:952 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.18:27017:967 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.19:27017:967 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:53441}] to 192.168.40.19:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.19:27017:967 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1224641, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.19:27017:967 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:53442}] to 192.168.40.19:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.19:27017:967 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1163992, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.20:27017:967 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:53439}] to 192.168.40.20:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.20:27017:967 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:53438}] to 192.168.40.20:27017
+2017-03-09 19:27:18  [ main:967 ] - [ INFO ]  Opened connection [connectionId{localValue:7, serverValue:53582}] to 192.168.40.18:27017
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2e', description='null'}-192.168.40.20:27017:983 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=4783330, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:18  [ cluster-ClusterId{value='58c13c168d570710ecb51b2f', description='null'}-192.168.40.20:27017:983 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=5465396, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2017-03-09 19:27:24  [ main:7114 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-03-09 19:29:55  [ main:158153 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 19:29:55  [ main:158153 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 19:53:46  [ main:1588701 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.204.9:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 19:53:46  [ main:1588701 ] - [ INFO ]  Retrying request to {}->http://58.55.204.9:1089->http://m.weibo.cn:80
+2017-03-09 20:24:15  [ main:3418039 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://111.181.64.248:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 20:24:15  [ main:3418039 ] - [ INFO ]  Retrying request to {}->http://111.181.64.248:1089->http://m.weibo.cn:80
+2017-03-09 20:30:54  [ main:3817049 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 20:30:54  [ main:3817049 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 20:54:48  [ main:5250363 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://58.55.129.75:1089->http://m.weibo.cn:80: Software caused connection abort: recv failed
+2017-03-09 20:54:48  [ main:5250363 ] - [ INFO ]  Retrying request to {}->http://58.55.129.75:1089->http://m.weibo.cn:80
+2017-03-09 21:51:21  [ main:8644200 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Connection reset by peer: socket write error
+2017-03-09 21:51:21  [ main:8644200 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80
+2017-03-09 22:30:52  [ main:11014577 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {}->http://114.113.237.137:80: Software caused connection abort: recv failed
+2017-03-09 22:30:52  [ main:11014577 ] - [ INFO ]  Retrying request to {}->http://114.113.237.137:80

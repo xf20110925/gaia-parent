@@ -1,0 +1,151 @@
+2016-11-03 14:24:03  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 14:24:03  [ main:582 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 14:24:04  [ main:1225 ] - [ INFO ]  MONGO配置完成
+2016-11-03 14:24:15  [ cluster-ClusterId{value='581ad803fa8f87204c48ebdf', description='null'}-192.168.5.200:27017:11822 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 14:24:15  [ cluster-ClusterId{value='581ad803fa8f87204c48ebdf', description='null'}-192.168.5.200:27017:11826 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2500578}
+2016-11-03 14:24:15  [ main:11831 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 14:24:15  [ main:11846 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 14:24:23  [ pool-1-thread-1:20026 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 14:24:23  [ pool-1-thread-2:20289 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 14:24:23  [ pool-1-thread-3:20352 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 14:24:23  [ main:20562 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 14:24:23  [ pool-1-thread-5:20585 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 14:24:24  [ pool-1-thread-6:21171 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-03 14:24:24  [ pool-1-thread-8:21552 ] - [ INFO ]  Opened connection [connectionId{localValue:9}] to 192.168.5.200:27017
+2016-11-03 14:24:26  [ pool-1-thread-2:22959 ] - [ INFO ]  Opened connection [connectionId{localValue:10}] to 192.168.5.200:27017
+2016-11-03 16:58:00  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 16:58:01  [ main:766 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 16:58:01  [ main:889 ] - [ INFO ]  MONGO配置完成
+2016-11-03 16:58:01  [ cluster-ClusterId{value='581afc19fa8f871950ba1a41', description='null'}-192.168.5.200:27017:934 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 16:58:01  [ cluster-ClusterId{value='581afc19fa8f871950ba1a41', description='null'}-192.168.5.200:27017:937 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1349659}
+2016-11-03 16:58:01  [ main:1003 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 16:58:33  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 16:58:34  [ main:1356 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 16:58:34  [ main:1527 ] - [ INFO ]  MONGO配置完成
+2016-11-03 16:58:34  [ cluster-ClusterId{value='581afc3afa8f872124f8ef7a', description='null'}-192.168.5.200:27017:1602 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 16:58:34  [ cluster-ClusterId{value='581afc3afa8f872124f8ef7a', description='null'}-192.168.5.200:27017:1605 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2302770}
+2016-11-03 16:58:35  [ main:1670 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 16:58:35  [ pool-1-thread-1:1788 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 16:59:10  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 16:59:11  [ main:702 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 16:59:11  [ main:891 ] - [ INFO ]  MONGO配置完成
+2016-11-03 16:59:11  [ cluster-ClusterId{value='581afc5ffa8f8723ec668a35', description='null'}-192.168.5.200:27017:1049 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 16:59:11  [ main:1051 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 16:59:11  [ cluster-ClusterId{value='581afc5ffa8f8723ec668a35', description='null'}-192.168.5.200:27017:1055 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=4154410}
+2016-11-03 16:59:11  [ main:1078 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 17:14:42  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 17:14:43  [ main:815 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 17:14:43  [ main:980 ] - [ INFO ]  MONGO配置完成
+2016-11-03 17:14:44  [ cluster-ClusterId{value='581b0003fa8f87128097f2b6', description='null'}-192.168.5.200:27017:1063 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 17:14:44  [ main:1066 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 17:14:44  [ cluster-ClusterId{value='581b0003fa8f87128097f2b6', description='null'}-192.168.5.200:27017:1067 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=3389775}
+2016-11-03 17:14:44  [ main:1088 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 17:14:44  [ pool-1-thread-1:1317 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 17:14:45  [ pool-1-thread-20:2986 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 17:14:56  [ main:13151 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 17:15:35  [ main:52810 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 17:15:49  [ main:66206 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 17:16:18  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 17:16:19  [ main:695 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 17:16:19  [ main:994 ] - [ INFO ]  MONGO配置完成
+2016-11-03 17:16:19  [ main:1114 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 17:16:19  [ cluster-ClusterId{value='581b0063fa8f871e94227559', description='null'}-192.168.5.200:27017:1122 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 17:16:19  [ cluster-ClusterId{value='581b0063fa8f871e94227559', description='null'}-192.168.5.200:27017:1140 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1321201}
+2016-11-03 17:16:19  [ main:1158 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 17:16:20  [ pool-1-thread-1:1644 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 17:16:21  [ pool-1-thread-4:2893 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 17:16:21  [ main:3120 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 17:16:31  [ pool-1-thread-874:12942 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 17:17:45  [ pool-1-thread-1111:86857 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 18:56:29  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 18:56:29  [ main:770 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 18:56:29  [ main:839 ] - [ INFO ]  MONGO配置完成
+2016-11-03 18:56:29  [ main:875 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 18:56:29  [ cluster-ClusterId{value='581b17ddfa8f8718b43e5bd5', description='null'}-192.168.5.200:27017:881 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 18:56:29  [ cluster-ClusterId{value='581b17ddfa8f8718b43e5bd5', description='null'}-192.168.5.200:27017:882 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=884995}
+2016-11-03 18:56:29  [ main:888 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 18:56:30  [ pool-1-thread-1:1003 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 18:56:31  [ pool-1-thread-12:2006 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 18:56:31  [ pool-1-thread-21:2267 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 18:56:31  [ main:2273 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 18:56:41  [ pool-1-thread-811:12211 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 18:56:41  [ pool-1-thread-815:12229 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-03 19:15:50  [ main:0 ] - [ WARN ]  [192.168.5.171:9300, 192.168.5.172:9300, 192.168.5.173:9300]
+2016-11-03 19:15:50  [ main:12 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.171:9300, 192.168.5.172:9300, 192.168.5.173:9300] 
+2016-11-03 19:15:51  [ main:769 ] - [ INFO ]  [Hulk] modules [], plugins [], sites []
+2016-11-03 19:15:52  [ main:2086 ] - [ WARN ]  [192.168.5.171:9300, 192.168.5.172:9300, 192.168.5.173:9300]
+2016-11-03 19:15:52  [ main:2087 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.171:9300, 192.168.5.172:9300, 192.168.5.173:9300] 
+2016-11-03 19:15:52  [ main:2089 ] - [ INFO ]  [Gypsy Moth] modules [], plugins [], sites []
+2016-11-03 19:15:52  [ main:2172 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 19:15:52  [ main:2520 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 19:15:53  [ main:2567 ] - [ INFO ]  MONGO配置完成
+2016-11-03 19:15:53  [ cluster-ClusterId{value='581b1c68fa8f8714545ff2cb', description='null'}-192.168.5.200:27017:2611 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 19:15:53  [ cluster-ClusterId{value='581b1c68fa8f8714545ff2cb', description='null'}-192.168.5.200:27017:2613 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1010956}
+2016-11-03 19:15:53  [ main:3187 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.171:9300, 192.168.5.172:9300, 192.168.5.173:9300] 
+2016-11-03 19:15:53  [ main:3189 ] - [ INFO ]  [Guido Carosella] modules [], plugins [], sites []
+2016-11-03 19:15:54  [ main:3674 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 20:42:33  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 20:42:33  [ main:651 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 20:42:34  [ main:731 ] - [ INFO ]  MONGO配置完成
+2016-11-03 20:42:34  [ main:771 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 20:42:34  [ cluster-ClusterId{value='581b30b9fa8f870664d275d1', description='null'}-192.168.5.200:27017:777 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 20:42:34  [ cluster-ClusterId{value='581b30b9fa8f870664d275d1', description='null'}-192.168.5.200:27017:779 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1148114}
+2016-11-03 20:42:34  [ main:786 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 20:42:34  [ pool-1-thread-1:914 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 20:42:35  [ pool-1-thread-4:1932 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 20:42:35  [ pool-1-thread-21:2144 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 20:42:35  [ pool-1-thread-22:2156 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 20:42:36  [ pool-1-thread-72:3577 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 22:19:57  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 22:19:58  [ main:798 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 22:19:58  [ main:890 ] - [ INFO ]  MONGO配置完成
+2016-11-03 22:19:58  [ main:937 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 22:19:58  [ cluster-ClusterId{value='581b478efa8f871568dc4352', description='null'}-192.168.5.200:27017:943 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 22:19:58  [ cluster-ClusterId{value='581b478efa8f871568dc4352', description='null'}-192.168.5.200:27017:944 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=988563}
+2016-11-03 22:19:58  [ main:952 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 22:19:58  [ pool-1-thread-1:1103 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-6:1949 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-7:1951 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-8:1958 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-5:1967 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-9:1984 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-12:2050 ] - [ INFO ]  Opened connection [connectionId{localValue:10}] to 192.168.5.200:27017
+2016-11-03 22:19:59  [ pool-1-thread-17:2050 ] - [ INFO ]  Opened connection [connectionId{localValue:9}] to 192.168.5.200:27017
+2016-11-03 22:22:35  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 22:22:35  [ main:731 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 22:22:36  [ main:820 ] - [ INFO ]  MONGO配置完成
+2016-11-03 22:22:36  [ cluster-ClusterId{value='581b482bfa8f871f0c01dc48', description='null'}-192.168.5.200:27017:865 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 22:22:36  [ cluster-ClusterId{value='581b482bfa8f871f0c01dc48', description='null'}-192.168.5.200:27017:867 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1161643}
+2016-11-03 22:22:36  [ main:870 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 22:22:36  [ main:876 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 22:22:36  [ pool-1-thread-1:952 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-1:1840 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-7:1844 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-4:1850 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-8:1854 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ main:1882 ] - [ INFO ]  Opened connection [connectionId{localValue:9}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-5:1965 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 22:22:37  [ pool-1-thread-1:1978 ] - [ INFO ]  Opened connection [connectionId{localValue:10}] to 192.168.5.200:27017
+2016-11-03 22:28:35  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 22:28:36  [ main:700 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 22:28:36  [ main:786 ] - [ INFO ]  MONGO配置完成
+2016-11-03 22:28:36  [ cluster-ClusterId{value='581b4994fa8f872218e20e19', description='null'}-192.168.5.200:27017:831 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 22:28:36  [ main:832 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 22:28:36  [ cluster-ClusterId{value='581b4994fa8f872218e20e19', description='null'}-192.168.5.200:27017:832 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1079535}
+2016-11-03 22:28:36  [ main:841 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 22:28:38  [ pool-1-thread-1:2949 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 22:28:40  [ pool-1-thread-2:4394 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 22:30:28  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-03 22:30:29  [ main:715 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-03 22:30:29  [ main:796 ] - [ INFO ]  MONGO配置完成
+2016-11-03 22:30:29  [ cluster-ClusterId{value='581b4a05fa8f870108e4a23f', description='null'}-192.168.5.200:27017:846 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-03 22:30:29  [ cluster-ClusterId{value='581b4a05fa8f870108e4a23f', description='null'}-192.168.5.200:27017:847 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1053410}
+2016-11-03 22:30:29  [ main:849 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-03 22:30:29  [ main:855 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-03 22:30:29  [ pool-1-thread-1:947 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-3:1343 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-6:1345 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-1:1349 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-7:1354 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-5:1355 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-03 22:30:30  [ pool-1-thread-8:1359 ] - [ INFO ]  Opened connection [connectionId{localValue:9}] to 192.168.5.200:27017

@@ -1,0 +1,108 @@
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main hive.ql.metadata.Hive - Failed to register all functions.
+java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1493)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:67)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:82)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:2935)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:2954)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllFunctions(Hive.java:3179)
+	at org.apache.hadoop.hive.ql.metadata.Hive.reloadFunctions(Hive.java:210)
+	at org.apache.hadoop.hive.ql.metadata.Hive.registerAllFunctionsOnce(Hive.java:197)
+	at org.apache.hadoop.hive.ql.metadata.Hive.<init>(Hive.java:307)
+	at org.apache.hadoop.hive.ql.metadata.Hive.get(Hive.java:268)
+	at org.apache.hadoop.hive.ql.metadata.Hive.get(Hive.java:243)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:513)
+	at org.apache.spark.sql.hive.client.ClientWrapper.<init>(ClientWrapper.scala:194)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:238)
+	at org.apache.spark.sql.hive.HiveContext.executionHive$lzycompute(HiveContext.scala:220)
+	at org.apache.spark.sql.hive.HiveContext.executionHive(HiveContext.scala:210)
+	at org.apache.spark.sql.hive.HiveContext.functionRegistry$lzycompute(HiveContext.scala:464)
+	at org.apache.spark.sql.hive.HiveContext.functionRegistry(HiveContext.scala:463)
+	at org.apache.spark.sql.UDFRegistration.<init>(UDFRegistration.scala:40)
+	at org.apache.spark.sql.SQLContext.<init>(SQLContext.scala:330)
+	at org.apache.spark.sql.hive.HiveContext.<init>(HiveContext.scala:90)
+	at org.apache.spark.sql.hive.HiveContext.<init>(HiveContext.scala:101)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle.wxHeadLinesHandle(MediaChannelDetailHandle.scala:16)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$.mediaCategoryRun(MediaChannelDetailHandle.scala:68)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$$anonfun$1.apply(MediaChannelDetailHandle.scala:74)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$$anonfun$1.apply(MediaChannelDetailHandle.scala:74)
+	at com.ptb.gaia.utils.SetUpUtil.runJob(SetUpUtil.scala:17)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$.main(MediaChannelDetailHandle.scala:74)
+	at TestCategory$.main(TestCategory.scala:17)
+	at TestCategory.main(TestCategory.scala)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1491)
+	... 29 more
+Caused by: MetaException(message:Could not connect to meta store using any of the URIs provided. Most recent failure: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:187)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.open(HiveMetaStoreClient.java:420)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:235)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1491)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:67)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:82)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:2935)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:2954)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllFunctions(Hive.java:3179)
+	at org.apache.hadoop.hive.ql.metadata.Hive.reloadFunctions(Hive.java:210)
+	at org.apache.hadoop.hive.ql.metadata.Hive.registerAllFunctionsOnce(Hive.java:197)
+	at org.apache.hadoop.hive.ql.metadata.Hive.<init>(Hive.java:307)
+	at org.apache.hadoop.hive.ql.metadata.Hive.get(Hive.java:268)
+	at org.apache.hadoop.hive.ql.metadata.Hive.get(Hive.java:243)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:513)
+	at org.apache.spark.sql.hive.client.ClientWrapper.<init>(ClientWrapper.scala:194)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:238)
+	at org.apache.spark.sql.hive.HiveContext.executionHive$lzycompute(HiveContext.scala:220)
+	at org.apache.spark.sql.hive.HiveContext.executionHive(HiveContext.scala:210)
+	at org.apache.spark.sql.hive.HiveContext.functionRegistry$lzycompute(HiveContext.scala:464)
+	at org.apache.spark.sql.hive.HiveContext.functionRegistry(HiveContext.scala:463)
+	at org.apache.spark.sql.UDFRegistration.<init>(UDFRegistration.scala:40)
+	at org.apache.spark.sql.SQLContext.<init>(SQLContext.scala:330)
+	at org.apache.spark.sql.hive.HiveContext.<init>(HiveContext.scala:90)
+	at org.apache.spark.sql.hive.HiveContext.<init>(HiveContext.scala:101)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle.wxHeadLinesHandle(MediaChannelDetailHandle.scala:16)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$.mediaCategoryRun(MediaChannelDetailHandle.scala:68)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$$anonfun$1.apply(MediaChannelDetailHandle.scala:74)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$$anonfun$1.apply(MediaChannelDetailHandle.scala:74)
+	at com.ptb.gaia.utils.SetUpUtil.runJob(SetUpUtil.scala:17)
+	at com.ptb.gaia.analysis.calculation.MediaChannelDetailHandle$.main(MediaChannelDetailHandle.scala:74)
+	at TestCategory$.main(TestCategory.scala:17)
+	at TestCategory.main(TestCategory.scala)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:182)
+	... 37 more
+)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.open(HiveMetaStoreClient.java:467)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:235)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	... 34 more
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main hive.metastore - Failed to connect to the MetaStore Server...
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN Executor task launch worker-1 parquet.CorruptStatistics - Ignoring statistics because created_by is null or empty! See PARQUET-251 and PARQUET-297
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN Executor task launch worker-5 parquet.CorruptStatistics - Ignoring statistics because created_by is null or empty! See PARQUET-251 and PARQUET-297

@@ -1,0 +1,170 @@
+2016-11-24 13:04:26  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-24 13:04:26  [ main:754 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-24 13:04:26  [ main:762 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1151 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1152 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1219 ] - [ INFO ]  MONGO配置完成
+2016-11-24 13:04:27  [ main:1220 ] - [ INFO ]  正在配置MONGODB
+2016-11-24 13:04:27  [ main:1221 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-24 13:04:27  [ main:1221 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1221 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1222 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2016-11-24 13:04:27  [ main:1224 ] - [ INFO ]  MONGO配置完成
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.20:27017:1252 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:74222}] to 192.168.40.20:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.20:27017:1252 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:74221}] to 192.168.40.20:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.18:27017:1253 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:76194}] to 192.168.40.18:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.20:27017:1254 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1216693, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.20:27017:1257 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.18:27017:1255 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58298a9fff3dfe63d5ae9ff4, maxDocumentSize=16777216, roundTripTimeNanos=1578249, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.18:27017:1258 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:76195}] to 192.168.40.18:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.20:27017:1254 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1309531, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.19:27017:1258 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:74694}] to 192.168.40.19:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.18:27017:1265 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58298a9fff3dfe63d5ae9ff4, maxDocumentSize=16777216, roundTripTimeNanos=1916478, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.18:27017:1266 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.18:27017:1265 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.18:27017:1267 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674db2d5df519e0f771af', description='null'}-192.168.40.19:27017:1268 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=7875382, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.19:27017:1269 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:74693}] to 192.168.40.19:27017
+2016-11-24 13:04:27  [ cluster-ClusterId{value='583674da2d5df519e0f771ae', description='null'}-192.168.40.19:27017:1271 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1111725, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:04:32  [ main:6639 ] - [ WARN ]  get weibo account by weibo id [yyyooxi]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/yyyooxi/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:04:36  [ main:10212 ] - [ WARN ]  get weibo account by weibo id [znl1949]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/znl1949/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:04:38  [ main:12082 ] - [ WARN ]  get weibo account by weibo id [microtxk]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/microtxk/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:04:42  [ main:16116 ] - [ WARN ]  get weibo account by weibo id [nguakeji]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/nguakeji/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:04:43  [ main:17399 ] - [ WARN ]  get weibo account by weibo id [zhichao]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/zhichao/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:04:49  [ main:22905 ] - [ WARN ]  get weibo account by weibo id [lukuang]
+com.ptb.utils.exception.PTBException: 访问网页失败 url[http://m.weibo.cn/u/lukuang/] ua[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/536.36 (KHTML, like Gecko) Chrome/45.0.2452.101 Safari/536.36] userProxy[true] charset[utf-8] nessaryString[fansNum]
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:230)
+	at com.ptb.uranus.spider.common.utils.HttpUtil.getPageSourceByClient(HttpUtil.java:234)
+	at com.ptb.uranus.spider.weibo.parse.WeiboAccountParser.getWeiboAccount(WeiboAccountParser.java:94)
+	at com.ptb.uranus.spider.weibo.WeiboSpider.getWeiboAccountByWeiboID(WeiboSpider.java:92)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWBMedia2Mongo$3(NewMediaCommand.java:82)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWBMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:97)
+2016-11-24 13:13:11  [ main:2 ] - [ WARN ]  error is wxid=zhichao maxPage=1 
+java.lang.NumberFormatException: For input string: "2&amp;read_num=0&amp;post_time=0"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.ptb.uranus.spider.weixin.parse.GsDataWeixinParser.getPage(GsDataWeixinParser.java:99)
+	at com.ptb.uranus.spider.weixin.parse.GsDataWeixinParser.getWeixinAccountByIdOrName(GsDataWeixinParser.java:46)
+	at com.ptb.uranus.spider.weixin.WeixinSpider.getWeixinAccountByIdOrName(WeixinSpider.java:69)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWXMedia2Mongo$1(NewMediaCommand.java:65)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWXMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:103)
+2016-11-24 13:14:56  [ main:104794 ] - [ INFO ]  正在配置MONGODB
+2016-11-24 13:29:47  [ main:1 ] - [ WARN ]  get weixin article by url http://mp.weixin.qq.com/s?src=3&timestamp=1479965368&ver=1&signature=nb-Z-BB1oWZd0MMHRi3BS0VZz1Neq7lyx*HwAHdXxUDBuHPERRk7Wg*FSv5NKIunzu2uy4zbNvrXuXRWJ8uhFUXVtydXUCwS7vDBBq3DfMl4Sp9Wymw86rn-U2QmJe2BVEj3kX-VcFPdpdFjvXeAwOXjVHB0LMglCTYpH-Gk2Ho= error
+com.ptb.utils.exception.PTBException: Url argument Error [http://mp.weixin.qq.com/s?src=3&timestamp=1479965368&ver=1&signature=nb-Z-BB1oWZd0MMHRi3BS0VZz1Neq7lyx*HwAHdXxUDBuHPERRk7Wg*FSv5NKIunzu2uy4zbNvrXuXRWJ8uhFUXVtydXUCwS7vDBBq3DfMl4Sp9Wymw86rn-U2QmJe2BVEj3kX-VcFPdpdFjvXeAwOXjVHB0LMglCTYpH-Gk2Ho=]
+	at com.ptb.utils.web.UrlFormatUtil.format(UrlFormatUtil.java:56)
+	at com.ptb.uranus.spider.weixin.WeixinSpider.getArticleByUrl(WeixinSpider.java:250)
+	at com.ptb.uranus.spider.weixin.WeixinSpider.getWeixinAccountByArticleUrl(WeixinSpider.java:336)
+	at com.ptb.uranus.spider.weixin.WeixinSpider.getWeixinAccountByWeixinID(WeixinSpider.java:360)
+	at com.ptb.gaia.tool.command.NewMediaCommand.lambda$missingWXMedia2Mongo$1(NewMediaCommand.java:64)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.ptb.gaia.tool.command.NewMediaCommand.missingWXMedia2Mongo(NewMediaCommand.java:81)
+	at com.ptb.gaia.tool.command.NewMediaCommand.main(NewMediaCommand.java:103)
+Caused by: com.ptb.utils.exception.PTBException: url [] 参数不全
+	at com.ptb.utils.web.UrlFormatUtil.formatWechatPhoneUrl(UrlFormatUtil.java:72)
+	at com.ptb.utils.web.UrlFormatUtil.formatWechatSogouUrl(UrlFormatUtil.java:31)
+	at com.ptb.utils.web.UrlFormatUtil.format(UrlFormatUtil.java:47)
+	... 14 more
+2016-11-24 13:33:19  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-24 13:33:20  [ main:782 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-24 13:33:20  [ main:786 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:885 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:886 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:898 ] - [ INFO ]  MONGO配置完成
+2016-11-24 13:33:20  [ main:898 ] - [ INFO ]  正在配置MONGODB
+2016-11-24 13:33:20  [ main:900 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-24 13:33:20  [ main:900 ] - [ INFO ]  Adding discovered server 192.168.40.18:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:901 ] - [ INFO ]  Adding discovered server 192.168.40.19:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:902 ] - [ INFO ]  Adding discovered server 192.168.40.20:27017 to client view of cluster
+2016-11-24 13:33:20  [ main:904 ] - [ INFO ]  MONGO配置完成
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.18:27017:959 ] - [ INFO ]  Opened connection [connectionId{localValue:1, serverValue:76326}] to 192.168.40.18:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.19:27017:960 ] - [ INFO ]  Opened connection [connectionId{localValue:5, serverValue:74824}] to 192.168.40.19:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.19:27017:959 ] - [ INFO ]  Opened connection [connectionId{localValue:2, serverValue:74823}] to 192.168.40.19:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.20:27017:961 ] - [ INFO ]  Opened connection [connectionId{localValue:3, serverValue:74351}] to 192.168.40.20:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.18:27017:964 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58298a9fff3dfe63d5ae9ff4, maxDocumentSize=16777216, roundTripTimeNanos=4198245, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.20:27017:961 ] - [ INFO ]  Opened connection [connectionId{localValue:6, serverValue:74352}] to 192.168.40.20:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.18:27017:966 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.20:27017:966 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2149740, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.18:27017:967 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.20:27017:967 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.20:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2054103, setName='test-env-replset', canonicalAddress=192.168.40.20:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.20:27017:968 ] - [ INFO ]  Discovered cluster type of REPLICA_SET
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.18:27017:960 ] - [ INFO ]  Opened connection [connectionId{localValue:4, serverValue:76327}] to 192.168.40.18:27017
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef5', description='null'}-192.168.40.19:27017:963 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1984590, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.19:27017:962 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.19:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1808711, setName='test-env-replset', canonicalAddress=192.168.40.19:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.18:27017:971 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.40.18:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 12]}, minWireVersion=0, maxWireVersion=3, electionId=58298a9fff3dfe63d5ae9ff4, maxDocumentSize=16777216, roundTripTimeNanos=1637963, setName='test-env-replset', canonicalAddress=192.168.40.18:27017, hosts=[192.168.40.18:27017, 192.168.40.19:27017, 192.168.40.20:27017], passives=[], arbiters=[], primary='192.168.40.18:27017', tagSet=TagSet{[]}}
+2016-11-24 13:33:20  [ cluster-ClusterId{value='58367ba02d5df508f8f7fef6', description='null'}-192.168.40.18:27017:972 ] - [ INFO ]  Discovered replica set primary 192.168.40.18:27017

@@ -1,0 +1,79 @@
+2016-11-07 14:28:53  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-07 14:28:53  [ main:790 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-07 14:28:54  [ main:915 ] - [ INFO ]  MONGO配置完成
+2016-11-07 14:28:54  [ main:965 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-07 14:28:54  [ cluster-ClusterId{value='58201f25fa8f871c80607ad3', description='null'}-192.168.5.200:27017:990 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 14:28:54  [ cluster-ClusterId{value='58201f25fa8f871c80607ad3', description='null'}-192.168.5.200:27017:992 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1240031}
+2016-11-07 14:28:54  [ main:1001 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-07 14:28:56  [ pool-1-thread-1:3238 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-07 14:28:57  [ pool-1-thread-2:4697 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-07 14:29:25  [ pool-1-thread-5:32027 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-07 14:32:41  [ main:0 ] - [ INFO ]  正在配置MONGODB
+2016-11-07 14:32:42  [ main:753 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1500000}
+2016-11-07 14:32:42  [ main:845 ] - [ INFO ]  MONGO配置完成
+2016-11-07 14:32:42  [ main:897 ] - [ INFO ]  No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=192.168.5.200:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2016-11-07 14:32:42  [ cluster-ClusterId{value='5820200afa8f871e502b100f', description='null'}-192.168.5.200:27017:904 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 14:32:42  [ cluster-ClusterId{value='5820200afa8f871e502b100f', description='null'}-192.168.5.200:27017:905 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=946118}
+2016-11-07 14:32:42  [ main:914 ] - [ INFO ]  Opened connection [connectionId{localValue:2}] to 192.168.5.200:27017
+2016-11-07 14:32:42  [ pool-1-thread-1:1018 ] - [ INFO ]  Opened connection [connectionId{localValue:3}] to 192.168.5.200:27017
+2016-11-07 14:32:43  [ pool-1-thread-4:2210 ] - [ INFO ]  Opened connection [connectionId{localValue:5}] to 192.168.5.200:27017
+2016-11-07 14:32:43  [ pool-1-thread-5:2212 ] - [ INFO ]  Opened connection [connectionId{localValue:4}] to 192.168.5.200:27017
+2016-11-07 14:32:43  [ pool-1-thread-1:2216 ] - [ INFO ]  Opened connection [connectionId{localValue:6}] to 192.168.5.200:27017
+2016-11-07 14:32:44  [ pool-1-thread-7:2224 ] - [ INFO ]  Opened connection [connectionId{localValue:7}] to 192.168.5.200:27017
+2016-11-07 14:32:44  [ pool-1-thread-6:2231 ] - [ INFO ]  Opened connection [connectionId{localValue:8}] to 192.168.5.200:27017
+2016-11-07 14:32:44  [ main:2233 ] - [ INFO ]  Opened connection [connectionId{localValue:9}] to 192.168.5.200:27017
+2016-11-07 14:32:44  [ pool-1-thread-8:2233 ] - [ INFO ]  Opened connection [connectionId{localValue:10}] to 192.168.5.200:27017
+2016-11-07 20:05:13  [ main:0 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:05:13  [ cluster-ClusterId{value='58206df9fa8f8723b034927f', description='null'}-192.168.5.200:27017:333 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:05:13  [ cluster-ClusterId{value='58206df9fa8f8723b034927f', description='null'}-192.168.5.200:27017:335 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1554004}
+2016-11-07 20:05:13  [ main:455 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:05:14  [ main:893 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:05:15  [ main:1691 ] - [ INFO ]  [Pulse] modules [], plugins [], sites []
+2016-11-07 20:05:18  [ main:4775 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:05:18  [ main:4776 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:05:18  [ main:4778 ] - [ INFO ]  [Jack Kirby] modules [], plugins [], sites []
+2016-11-07 20:09:22  [ main:0 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:09:22  [ main:141 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:09:22  [ main:150 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:09:22  [ cluster-ClusterId{value='58206ef2fa8f8713c07c8af2', description='null'}-192.168.5.200:27017:158 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:09:22  [ cluster-ClusterId{value='58206ef2fa8f8713c07c8af2', description='null'}-192.168.5.200:27017:161 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1595991}
+2016-11-07 20:09:23  [ main:576 ] - [ INFO ]  [Cyclone] modules [], plugins [], sites []
+2016-11-07 20:09:24  [ main:2166 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:09:24  [ main:2166 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:09:24  [ main:2169 ] - [ INFO ]  [Grotesk] modules [], plugins [], sites []
+2016-11-07 20:10:25  [ main:0 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:10:25  [ main:171 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:10:25  [ main:183 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:10:25  [ cluster-ClusterId{value='58206f30fa8f872658891dc6', description='null'}-192.168.5.200:27017:191 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:10:25  [ cluster-ClusterId{value='58206f30fa8f872658891dc6', description='null'}-192.168.5.200:27017:193 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1349665}
+2016-11-07 20:10:25  [ main:652 ] - [ INFO ]  [Dreamqueen] modules [], plugins [], sites []
+2016-11-07 20:10:27  [ main:2230 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:10:27  [ main:2231 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:10:27  [ main:2233 ] - [ INFO ]  [Cobalt Man] modules [], plugins [], sites []
+2016-11-07 20:12:41  [ main:0 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:12:41  [ main:164 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:12:41  [ main:177 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:12:41  [ cluster-ClusterId{value='58206fb9fa8f8725407d52c6', description='null'}-192.168.5.200:27017:186 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:12:41  [ cluster-ClusterId{value='58206fb9fa8f8725407d52c6', description='null'}-192.168.5.200:27017:189 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1477026}
+2016-11-07 20:12:41  [ main:661 ] - [ INFO ]  [Time Bomb] modules [], plugins [], sites []
+2016-11-07 20:12:43  [ main:2139 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:12:43  [ main:2140 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:12:43  [ main:2142 ] - [ INFO ]  [Iron Fist] modules [], plugins [], sites []
+2016-11-07 20:15:06  [ main:0 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:15:06  [ main:163 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:15:06  [ main:173 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:15:06  [ cluster-ClusterId{value='5820704afa8f870fd4be33c0', description='null'}-192.168.5.200:27017:189 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:15:06  [ cluster-ClusterId{value='5820704afa8f870fd4be33c0', description='null'}-192.168.5.200:27017:192 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1402848}
+2016-11-07 20:15:07  [ main:761 ] - [ INFO ]  [Raving Beauty] modules [], plugins [], sites []
+2016-11-07 20:15:08  [ main:2222 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:15:08  [ main:2222 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:15:08  [ main:2225 ] - [ INFO ]  [Robert Kelly] modules [], plugins [], sites []
+2016-11-07 20:56:01  [ main:1 ] - [ INFO ]  Cluster created with settings {hosts=[192.168.5.200:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2016-11-07 20:56:01  [ main:134 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:56:01  [ main:144 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:56:01  [ cluster-ClusterId{value='582079e1fa8f870dd8e76173', description='null'}-192.168.5.200:27017:151 ] - [ INFO ]  Opened connection [connectionId{localValue:1}] to 192.168.5.200:27017
+2016-11-07 20:56:01  [ cluster-ClusterId{value='582079e1fa8f870dd8e76173', description='null'}-192.168.5.200:27017:153 ] - [ INFO ]  Monitor thread successfully connected to server with description ServerDescription{address=192.168.5.200:27017, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 11]}, minWireVersion=0, maxWireVersion=3, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1187779}
+2016-11-07 20:56:01  [ main:607 ] - [ INFO ]  [Kiden Nixon] modules [], plugins [], sites []
+2016-11-07 20:56:02  [ main:1890 ] - [ WARN ]  [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300]
+2016-11-07 20:56:02  [ main:1890 ] - [ INFO ]  Using ElasticSearch hostnames: [192.168.5.35:9300, 192.168.5.36:9300, 192.168.5.37:9300] 
+2016-11-07 20:56:02  [ main:1893 ] - [ INFO ]  [Necrodamus] modules [], plugins [], sites []
